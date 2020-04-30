@@ -15,7 +15,6 @@ myProduct5 = Product("Наушники", "Apple", 300, 1095, 2000)
 group = [myProduct1, myProduct2, myProduct3, myProduct4, myProduct5]
 
 manufacturer = input("Введите производителя: ")
-
 for pr in group:
     if manufacturer == pr.manufacturer:
         print(pr.name)
